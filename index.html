@@ -231,6 +231,15 @@
   .hero2-sub2{font-family:var(--mono); font-size:10px; letter-spacing:.16em; text-transform:uppercase; color:var(--tabaco); margin-top:6px;}
   .hero2-desc{font-family:var(--body); font-size:15px; color:var(--espresso); max-width:560px; margin-top:12px;}
   @media(max-width:560px){ .hero2-yes .w{font-size:120px;} .hero2-title{font-size:44px;} .hero2-top{min-height:320px;} }
+  .hero3{position:relative; background:linear-gradient(180deg,#EFE3CC 0%, #E7D4B2 100%); padding:46px 26px 42px; border-bottom:1px solid var(--rule);}
+  .h3-mast{font-family:var(--creative); font-style:italic; font-size:22px; color:var(--carbon);}
+  .h3-mast b{font-style:normal; font-family:var(--mono); font-size:9px; letter-spacing:.24em; text-transform:uppercase; margin-left:6px; color:var(--tabaco);}
+  .h3-rule{height:1px; background:var(--rule); margin:16px 0 22px;}
+  .h3-kick{font-family:var(--mono); font-size:11px; letter-spacing:.22em; text-transform:uppercase; color:var(--tabaco); margin-bottom:16px;}
+  .h3-head{font-family:var(--creative); font-size:118px; line-height:.85; letter-spacing:-.02em; margin:0; color:var(--carbon);}
+  .h3-head .hl{color:var(--dorado);}
+  .h3-stand{font-family:var(--body); font-style:italic; font-size:19px; color:var(--espresso); max-width:580px; margin-top:22px; line-height:1.45;}
+  @media(max-width:560px){ .h3-head{font-size:62px;} .h3-stand{font-size:17px;} }
   .downloads{display:flex; flex-wrap:wrap; align-items:center; gap:12px; background:var(--card); border:1px solid var(--rule); border-radius:14px; padding:16px 18px; margin:24px 0 0;}
   .downloads .dl-k{font-family:var(--mono); font-size:11px; letter-spacing:.2em; text-transform:uppercase; color:var(--tabaco); width:100%;}
   .dl-btn{font-family:var(--strong); font-weight:700; text-transform:uppercase; letter-spacing:.1em; font-size:12px; background:var(--carbon); color:var(--card); border-radius:999px; padding:11px 18px; text-decoration:none; display:inline-block;}
@@ -252,19 +261,13 @@
 
 <!-- HERO tipográfico -->
 <!-- HERO · portada catálogo (gemela del PDF) -->
-<div class="hero2">
-  <div class="hero2-top">
-    <div class="hero2-mast">marian. <b>Diario de una closer</b></div>
-    <span class="hero2-wm">vender desde la ayuda</span>
-    <span class="hero2-sticker">compre o no</span>
-    <div class="hero2-yes"><span class="w">sí.</span></div>
-  </div>
-  <div class="hero2-bot">
-    <div class="hero2-eyebrow">sube tu tasa de cierre sin sonar a vendedor <span class="n">(01)</span></div>
-    <div class="hero2-titlerow"><div class="hero2-title"><span class="par">(</span>De lead a cliente<span class="par">)</span></div><span class="hero2-num">N.º 01</span></div>
-    <div class="hero2-sub2">el método · para infoproductores</div>
-    <div class="hero2-desc">No es para leer y ya. Es para trabajar: rellena, practica y sal con tu propio guion.</div>
-  </div>
+<!-- HERO · portada editorial (sepia, titular grande) -->
+<div class="hero3">
+  <div class="h3-mast">marian. <b>diario de una closer</b></div>
+  <div class="h3-rule"></div>
+  <div class="h3-kick">El método · para infoproductores · N.º 01</div>
+  <h1 class="h3-head">De lead<br>a <span class="hl">cliente.</span></h1>
+  <p class="h3-stand">Sube tu tasa de cierre <span class="u-mark">sin sonar a vendedor</span>. El método y la herramienta para convertir en clientes los leads que ya tienes.</p>
 </div>
 
   <div class="wrap">
